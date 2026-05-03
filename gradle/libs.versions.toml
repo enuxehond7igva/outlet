@@ -1,6 +1,6 @@
 [versions]
 lie = "2.2.3"
-peasant = "2.0.16"
+peasant = "2.0.17"
 
 [libraries]
 lie = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "lie" }
