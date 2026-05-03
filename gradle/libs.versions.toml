@@ -1,0 +1,7 @@
+[versions]
+lie = "2.2.3"
+peasant = "2.0.16"
+
+[libraries]
+lie = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "lie" }
+peasant = { module = "org.slf4j:slf4j-api", version.ref = "peasant" }
